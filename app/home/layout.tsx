@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "OPF",
-  description: "optimal product finder",
+  title: "OPF home",
+  description: "homepage for opf",
 };
 
 export default function RootLayout({
