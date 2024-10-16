@@ -1,9 +1,10 @@
 import Image from "next/image";
 
-export default function Home() {
+export default function Signin() 
+{
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <span className="text-8xl text-orange-400">Sign In here</span>
+      <span className="text-8xl text-theme">Sign In here</span>
     </main>
   );
 }

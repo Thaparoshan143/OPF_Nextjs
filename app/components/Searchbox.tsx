@@ -5,9 +5,10 @@ interface ISearch
     placeholder : string
 };
 
-const Searchbox : React.FC<ISearch> = ({placeholder}) => {
+const Searchbox : React.FC<ISearch> = ({placeholder}) => 
+{
   return (
-    <input className="w-full min-h-[5rem] rounded-[5rem] border-2 border-theme p-4 text-xl text-theme hover:scale-x-[105%] transition-all duration-500" placeholder={placeholder} />
+    <input className="w-full min-h-[5rem] rounded-[5rem] border-2 p-4 text-xl text-theme active:border-2 active:border-theme transition-all duration-200" placeholder={placeholder} />
   )
 }
 

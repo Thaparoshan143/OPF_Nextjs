@@ -1,7 +1,7 @@
 export const _navItems = [
     {
         title : "home",
-        url : "/home"
+        url : "/"
     },
     {
         title : "shop",
